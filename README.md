@@ -4,13 +4,18 @@ ApexTune is the source-of-truth repository for the current ApexTune desktop opti
 
 ## Current stable build
 
-- Latest package: `ApexTune-v62.49-stability-proof-engine.zip`
+- Latest local package produced: `ApexTune-v62.60-runtime-orchestration-proof-engine.zip`
+- Previous repo package baseline: `ApexTune-v62.49-stability-proof-engine.zip`
 - Normal launcher inside package: `ApexTune.vbs`
 - Debug launcher inside package: `Launch-ApexTune-Debug.bat`
 
 ## Update rule
 
-Future ApexTune work should update this repository instead of creating scattered one-off chat builds. Old version piles should be avoided. Keep the latest stable package and source files current.
+Future ApexTune work should update this repository instead of creating scattered one-off chat builds. Keep the latest stable package and extracted source files current.
+
+## v62.60 focus
+
+ApexTune v62.60 adds a Runtime page, benchmark proof runner, operation state tracking, safer profile application, game optimizer previews, stronger async worker progress, and updated health-check diagnostics.
 
 ## Current priority stack
 
@@ -24,7 +29,8 @@ Future ApexTune work should update this repository instead of creating scattered
 8. Repair ApexTune.
 9. Updater SHA/ZIP/staging/rollback hardening.
 10. Async jobs and UI responsiveness.
+11. Runtime orchestration and proof confidence.
 
 ## Release notes
 
-The v62.49 package is the current baseline for Stability + Proof Engine work. Next updates should replace or supersede this baseline through commits/PRs in this repository, with changelogs and verification results included.
+The repository currently needs the extracted v62.60 source tree pushed alongside the latest package so future edits can replace files directly instead of stacking ZIP-only builds.
